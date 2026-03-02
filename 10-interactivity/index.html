@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- Smooth Scroll Example -->
 <html lang="en" class="scroll-smooth">
 
 <head>
@@ -11,25 +12,54 @@
 
 <body>
   <!-- Hover State Styling -->
-  <button class="hover:bg-red-300">Click me</button>
+  <button class="border border-cyan-200 bg-cyan-200 p-2 m-4 rounded-xl hover:bg-red-500 hover:text-white">Click
+    me</button>
+
   <!-- Focus State Styling -->
+  <button class="border border-cyan-200 bg-cyan-200 p-2 m-4 rounded-xl focus:bg-red-500 focus:text-white">Click
+    me</button>
 
   <!-- Active State Styling -->
+  <button class="border border-cyan-200 bg-cyan-200 p-2 m-4 rounded-xl active:bg-red-500 active:text-white">Click
+    me</button>
 
   <!-- Styling based on parent state -->
 
   <!-- Pseudo Classes -->
+  <ul>
+    <li class="first:bg-red-800">item 1</li>
+    <li class="first:bg-red-800">item 2</li>
+    <li class="first:bg-red-800">3</li>
+    <li class="first:bg-red-800">4</li>
+    <li class="first:bg-red-800">5</li>
+    <li class="first:bg-red-800">6</li>
+  </ul>
 
+  <ul>
+    <li class="even:bg-red-600 odd:bg-yellow-500">1</li>
+    <li class="even:bg-red-600 odd:bg-yellow-500">2</li>
+    <li class="even:bg-red-600 odd:bg-yellow-500">3</li>
+    <li class="even:bg-red-600 odd:bg-yellow-500">4</li>
+    <li class="even:bg-red-600 odd:bg-yellow-500">5</li>
+    <li class="even:bg-red-600 odd:bg-yellow-500">6</li>
+  </ul>
+  </ul>
   <!-- Appearance -->
   <!-- Use appearance-none to reset any browser specific styling on an element. This utility is often used when creating custom form components. -->
+  <select class="appearance-none">
+    <option>yes</option>
+    <option>no</option>
+  </select>
 
   <!-- Cursor -->
+  <button class="border border-cyan-200 bg-cyan-200 p-2 m-4 rounded-xl cursor-pointer">Click
+    me</button>
 
   <!-- Resize -->
 
   <!-- User Select -->
 
-  <!-- Smooth Scroll Example -->
+
 </body>
 
 </html>
